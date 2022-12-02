@@ -1,21 +1,15 @@
-@font-face {
-    font-family: "Atkinson Hyperlegible";
-    src: url("../assets/AtkinsonHyperlegible-Regular.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Math');
 
-@font-face {
-    font-family: "Zilla Slab";
-    src: url("../assets/ZillaSlab-Regular.ttf");
-}
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
-@font-face {
-    font-family: "Overpass";
-    src: url("../assets/Overpass-VariableFont_wght.ttf");
+body {
+    font-family: 'Inter', monospace;
 }
-
 
 .button {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Noto Sans Display';
     font-size:20;
     color:#f6f9f6;
     background-color:#666565;
@@ -25,7 +19,6 @@
     border-radius:10px;
     margin: 10;
     padding: 20
-
 }
 
 .section {
@@ -58,14 +51,13 @@ table {
 .intro {
     margin: 20px;
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Jetbrains Mono', monospace;
     font-weight: bolder;
     font-size: 50;
     color: white;
 }
 .subintro {
     text-align: center;
-    font-family: cursive;
     margin: 20px;
     margin-bottom: 50px;
     color: white;
@@ -154,7 +146,7 @@ p {
 
     padding: 50;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'Jetbrains Mono', monospace;
     font-weight: 400;
     color: rgb(29, 63, 230);
 
